@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Three column layout</title>
+	<style>
+			.container{
+				width: 1000px;
+				background-color: pink;
+
+			}
+			.cleaner{
+				clear:both;
+			}
+
+			.left{
+				width: 200px;
+				float: left;
+				padding: 20px;
+				background-color: white;
+
+			}
+
+			.center{
+				width: 500px;
+				float: left;
+				padding: 20px;
+				background-color: white;
+			}
+
+			.right{
+				width: 300px;
+				float: left;
+				padding: 20px;
+				background-color: white;
+			}
+	</style>
+</head>
+<body>
+	<div class="container"></div>
+	<div class="left"></div>
+	<div class="center"></div>
+	<div class="right"></div>
+
+	<div class="cleaner"></div>
+</body>
+</html>
