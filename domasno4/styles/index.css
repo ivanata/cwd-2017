@@ -117,39 +117,220 @@ header .header-top-right{
 }
 
 
- main{
- 	width: 100%;
- 	height: 600px;
- 	margin-top: 0;
- 	padding-top: 0;
- 	box-sizing: border-box;
- }
- main.main.main-pic{
- 	width: 100%;
- 	height: 600px;
- 	border-bottom-style: solid;
- }
+.main {
+		width:100%;
+			}
 
-main.box{
-	width: 100%;
-	height: 600px;
-	background-image: url(slika1.jpg);
-}
-.box-top{
-	float: left;
-	box-sizing: border-box;
-	height: 70px;
-	width: 100%;
-	font-size: 20px;
-	padding-top: 30px;
-	padding-left: 20px;
-}
-.box-center{
-  text-align: center;
-  font-size: 25px;
-  color: blue;
-  padding: 150px;
+	.main .image a img{
+		width:100%;
+		height:480px;
+		position: relative;
+		margin-bottom: 20px;
+		}
+	.main .date{
+		position:absolute;
+		top: 180px; 
+  		left:70px;
+   		width: 90%; 
+   		text-decoration: none;
+   		display: block;
+   		float:left;
+	}
+	.main .date .h1{
+		text-decoration: none;
+		color:white;
+		font-size: 17px;
+		float:left;
+		margin:10px;
+		font-weight:600;
+	}
+	.main .date .h2{
+		color:white;
+		font-size: 17px;
+		float:left;
+		padding:10px 10px 10px 0;
+	}
+	.main .date i{
+		float:right;
+		margin-right: 0px;
+		color:white;
+	}
+	.main .center{
+		position: absolute;
+		top:280px;
+		left:33%;
+		float: left;
 
+
+	}
+.main .center .buttons{
+		left:20%S;
+
+		}
+	.main .center .buttons .button1 {
+		width:80px;
+		height:80px;
+		border-radius:50px;
+		font-size:20px;
+		color:white;
+		line-height:50px;
+		text-align:center;
+		background:transparent;
+		border:2px solid #e88578;
+		margin-right:10px;
+		margin-top: 15px;
+		margin-left:35px;
+	}
+	.main .center .buttons .button2 {
+		width:80px;
+		height:80px;
+		border-radius:50px;
+		font-size:20px;
+		color:white;
+		line-height:50px;
+		text-align:center;
+		background:transparent;
+		border:2px solid #eded6a;
+		margin-right:10px;
+	}
+	.main .center .buttons .button3 {
+		width:80px;
+		height:80px;
+		border-radius:50px;
+		font-size:20px;
+		color:white;
+		line-height:50px;
+		text-align:center;
+		background:transparent;
+		border:2px solid #85bbf2;
+		margin-right:10px;
+	}
+	.main .center .buttons .button4 {
+		width:80px;
+		height:80px;
+		border-radius:50px;
+		font-size:20px;
+		color:white;
+		line-height:50px;
+		text-align:center;
+		background:transparent;
+		border:2px solid #4596e8;
+		margin-right:10px;
+	}
+.main .center .classes{
+		float:left;
+		text-decoration:none;
+		display:block;
+		margin-left:15px;
+	}
+	.main .center .classes li{
+			font-size:12px;
+			color:white;
+			text-decoration: none;
+			float:left;
+			margin:0 35px 0 0px;
+			display:block;
+	}
+.main .bottom {
+		display: inline;
+		position: absolute;
+		top:80%;
+		width:100%;
+	}
+	.main .bottom .visit{
+		margin-left:5%;
+		margin-top:3%;
+	}
+	.main .bottom .visit .button1 {
+    background-color:#86c0f9;
+    border: none;
+    color: white;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 2px;
+    border-radius:20px;
+    font-weight: 600;
+}
+.main .bottom .visit .button2 {
+    background-color:transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 2px;
+    border-radius:20px;
+    font-weight: 600;
+}
+.main .bottom .visit .button3 {
+    background-color:transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 2px;
+    border-radius:20px;
+    font-weight: 600;
+}
+.main .bottom .vote {
+	float:right;
+	margin-right:5%;
+	}
+	.main .bottom .vote .button1 {
+	    background-color:transparent;
+	    float:right;
+	    border: 1px solid white;
+	    color: white;
+	    padding: 9px 25px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 15px;
+	    margin: 2px 2px;
+	    border-radius:20px;
+	    font-weight: 600;
 }
 
- 
+.content-head {
+		display: inline-block;
+		width:100%;
+}
+	.content-head .left{
+		margin-left:15px;
+	}
+	.content-head .left li{
+		list-style:none;
+		float:left;
+		color:#262626;
+		font-size: 16px;
+	}
+		.content-head .left li a{
+			text-decoration: none;
+			color:#262626;
+			font-weight: 600;
+			padding-right: 10px;
+			margin-top: 15px;
+		}
+	.content-head .right{
+		float:right;
+		list-style: none;
+		color:#262626;
+		margin-right:100px;
+	}
+.content-head .right li{
+		float:left;
+		padding-left: 10px;
+		font-size: 16px;
+	}
+	.content-head .right li:first-of-type{
+		font-weight: 600;
+	}
+	
