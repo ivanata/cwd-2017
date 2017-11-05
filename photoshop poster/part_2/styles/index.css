@@ -1,0 +1,98 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.box{
+	padding: 0px;
+	margin: 0px;
+}
+.clean{
+	clear: both;
+}
+.top{
+	padding: 0px;
+	margin: 0px;
+	background-color:#fbf8f1;
+	width:370px;
+	height:314px;
+	float:left;
+	display: inline;
+}
+.b-left{
+	width: 185px;
+	box-sizing: border-box;
+	height: 53px;
+	background-color:#fbf8f1;
+	/*border-style: solid;*/
+	float: left;
+	display: inline;
+	padding-left: 45px;
+	font-size: 17px;
+
+}
+.b-right{
+	width: 185px;
+	box-sizing: border-box;
+	border-style: groove;
+	height: 53px;
+	float: left;
+	display: inline;
+	background-color: #eee9e3;
+	padding-left:38px
+	font-size: 17px;
+	padding-bottom: 20px;
+	text-align:center;
+}
+.box .center{
+	display: inline;
+	width: 370px;
+	height: 133px;
+	/*padding: 5px 5px;*/
+	/*background-image: url(../slika1.jpg)*/
+	background-color:#fbf8f1;
+	margin-top: 0;
+	float: left;
+	border-bottom-style: groove;
+	border-bottom-color: #eee9e3;
+}
+.center img{
+	margin-left: 5px;
+	margin-right: 12px;
+	width: 82px;
+	height: 80px;
+	margin-top: 12px;
+	float: left;
+	padding: 2px;
+}
+.center p{
+	margin-top: 22px;
+	margin-left: 15px
+	padding-left: 25px;
+	text-decoration: none;
+	font-size: 16px;
+}
+.bottom{
+	display: inline;
+	width: 370px;
+	height: 133px;
+	/*background-image: url(../slika1.jpg)*/
+	background-color:#fbf8f1;
+	margin-top: 0;
+	float: left;
+}
+.clear{
+	clear: both;
+}
+.bottom img{
+	margin-right: 12px;
+	margin-left: 5px;
+	margin-top: 22px;
+	float: left;
+	padding: 2px;
+}
+.bottom p{
+    margin-top: 29px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+                        

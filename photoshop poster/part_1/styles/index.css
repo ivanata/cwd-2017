@@ -1,0 +1,82 @@
+*{
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 170px;
+	height: 445px;
+	/*background-color: red;*/
+	box-sizing: border-box;
+}
+
+.container .image{
+	background-image: url(../slika1.jpg);
+	background-size: center;
+	width: 170px;
+	height: 170px;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+
+}
+.container .name{
+	background-color:#eee9e3;
+	width: 170px;
+	height: 66px;
+	/*border-bottom-style: solid;*/
+	border-bottom-color:#ada9a3;
+	border-bottom-style: ridge;
+}
+.container .name h2 h1{
+
+	background-color: #eee9e3;
+	box-sizing: border-box;
+	width: 170px;
+	height: 66px;
+	/*<background-color: grey;*/
+}
+.container .name h2{
+	text-align: center;
+	padding-top: 12px;
+	color: #db5565;
+	width: 170px;
+	font-size: 18px;
+	text-decoration: bold;
+	
+}
+.container .name h1{
+	padding-top: 5px;
+	background-color: #eee9e3;
+	text-align: center;
+	color: grey;
+	font-size: 12px;
+	text-decoration: bold;
+}
+.container .list{
+	color: grey;
+	height: 222px;
+	width: 170px;
+	background-color:#fbf8f1;
+	/*background-color: grey;*/
+	box-sizing: border-box;
+	border:1px;
+	border-color: black;
+	padding: 15px;
+}
+.container .list ul li{
+	padding-left: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-bottom: solid;
+	border-bottom: #b4a3a5;
+	list-style: none;
+	text-align: center;
+	text-decoration: underline;
+	/*color: #b4a3a5;*/
+	color: #494645;
+}
+.container .list .more{
+	color: #c7bfbc;
+}
+
