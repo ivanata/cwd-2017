@@ -1,0 +1,91 @@
+*{
+	font-style: serif;
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	width: 370px;
+	height: 400px;
+	background-color: #fbf8f1;
+}
+.cleaner{
+	clear: both;
+}
+.left{
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	width: 100px;
+	height: 370px;
+	background-color: yellow;
+}
+.left .hot{
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	height: 100px;
+	background-color: #db5565;
+}
+.left .hot p{
+	text-align: center;
+	padding-top: 40px;
+	color: white;
+	font-size: 20px;
+}
+.left .sun{
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	height: 100px;
+	background-color: #f4ad49;
+}
+.left .sun p{
+	text-align: center;
+	padding-top: 40px;
+	color: white;
+	font-size: 20px;
+}
+.left .fresh{
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	height: 100px;
+	background-color: #47a877;
+}
+.left .fresh p{
+	text-align: center;
+	padding-top: 40px;
+	color: white;
+	font-size: 20px;
+}
+.left .sky{
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	height: 100px;
+	background-color: #0bacd3;
+}
+.left .sky p{
+	text-align: center;
+	padding-top: 40px;
+	color: white;
+	font-size: 20px;
+}
+.right{
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 270px;
+	height: 400px;
+}
+.right img{
+	width: 256px;
+	height: 201px;
+	padding-top: 30px;
+}
+.right p{
+	padding:19px;
+	font-size: 18px;
+	color: #b4a3a5;
+}
+
