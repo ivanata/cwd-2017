@@ -1,0 +1,37 @@
+*{
+	font-family: sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	width: 572px;
+	height: 432px;
+	background-color: grey;
+}
+.left{
+	background-image: url(../slika1.jpg);
+	background-image: center;
+	background-image: cover;
+	width: 286px;
+	height: 100%;
+	padding: 0px;
+}
+.cleaner{
+	clear: both;
+}
+.left ul{
+	list-style: none;
+	float: left;
+	margin-top:348px;
+	margin-left: 42px;
+}
+.left ul li p{
+	float: left;
+	font-size: 20px;
+	color: white
+	}
+.right{
+	width: 285px;
+	height: 100%;
+	float: left;
+}

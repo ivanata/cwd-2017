@@ -1,0 +1,97 @@
+*{
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	box-sizing: border-box;
+	width: 572px;
+	height: 315px;
+	/*padding: 0px;
+	margin: 0px;*/
+	background-color: black;
+}
+.left{
+	float: left;
+	width: 286px;
+	height: 315px;
+	padding: 0;
+	margin: 0;
+	background-image: url(../slika1.jpg);
+ 	background-position: center;
+ 	background-size: cover;
+}
+.button{
+	width: 246px;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 30px;
+	text-align: bottom;
+	background-color: #6e4d4a;
+	padding-left: 60px;
+	margin-top: 256px;
+	margin-left: 20px;
+
+
+}
+.cleaner{
+	clear: both;
+}
+.button ul{
+	list-style: none;
+	float: left;
+	display: inline;
+
+}
+.button ul li{
+	float: left;
+	padding-top: 15px;
+	padding-left: 11px;
+	color: white;
+	margin-bottom: 8px;
+	text-align: center;
+}
+.right{
+	float: left;
+	background-color: #e15868;
+	width: 286px;
+	height: 52px;
+}
+.top{
+	float: left;
+	list-style: none;
+	color: white;
+	height: 52px;
+}
+.top ul li{
+	float: left;
+	list-style: none;
+}
+.top li{
+ margin-top: 15px;
+ margin-left: 40px;
+}
+.numbers{
+	background-color: #fbf8f1;
+	/*margin-top: 52px;*/
+	width: 286px;
+	height: 263px;
+	float: left;
+}
+.numbers .days{
+	float: left;
+	list-style: none;
+}
+.days li{
+	float: left;
+	margin: 8px;
+}
+.first_week{
+	float: left;
+	width: 286px;
+	list-style: none;
+}
+.first_week li{
+	float: left;
+	margin: 10px;
+}
